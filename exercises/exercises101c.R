@@ -3,7 +3,8 @@ rovs <- data.frame(
   model = c("Chasing M2 Pro", "Qysea Fifish Pro V6", "BlueROV2"),
   price_usd = c(3459, 2999, 6500)
 )
-rovs[1, ]
+rovs[1, 2]
+View(rovs)
 
 # Pull out the model column from rovs using both square bracket and dollar sign
 # indexing
